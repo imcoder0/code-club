@@ -1,0 +1,11 @@
+CSS (Cascading Style Sheets) is a styling language that is used to add visual elements to web pages, such as colors, fonts, and layouts. It is used in conjunction with HTML and JavaScript to create visually appealing and responsive websites.
+
+One of the main benefits of CSS is that it allows you to separate the presentation of a website from its structure and content. This means that you can change the visual elements of a website without having to make changes to the HTML or JavaScript code. This makes it easier to maintain and update a website, and it also allows for more efficient use of code.
+
+CSS also allows for the use of media queries, which enable you to change the styles of a website based on the device or screen size it is being viewed on. This allows for responsive design, where the website automatically adapts to the size of the user's screen. This is especially important in today's world where majority of users access websites on mobile devices.
+
+Another feature of CSS is the ability to use CSS preprocessors like SASS and LESS. These preprocessors extend the capabilities of CSS by allowing you to use variables, functions, and other programming constructs within your stylesheets. This makes it easier to write and maintain complex stylesheets, and it also allows you to write more efficient and reusable code.
+
+CSS also has a number of powerful layout tools, such as Flexbox and Grid, which allow you to create complex and responsive layouts with ease. These tools make it easy to create grid-based layouts, align elements, and control the size and position of elements on a web page.
+
+In summary, CSS is an essential part of web development and is used to add visual elements to web pages. It allows for the separation of presentation and structure, making it easier to maintain and update websites. CSS also includes powerful layout tools and allows for responsive design, making it a must-have skill for any web developer.

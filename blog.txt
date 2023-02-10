@@ -1,0 +1,12 @@
+HTML, or Hypertext Markup Language, is the standard language used to create web pages. It is a markup language, which means it is used to add structure and meaning to text, and is used in conjunction with other languages such as CSS and JavaScript to create visually appealing and interactive websites.
+
+HTML is made up of elements, which are represented by tags. These tags are used to define the different parts of a web page, such as headings, paragraphs, images, and links. For example, the <h1> tag is used to create a main heading, while the <p> tag is used to create a paragraph.
+
+One of the key features of HTML is that it is a non-proprietary language, which means that it is not owned by any company or organization. This makes it widely supported by web browsers and web development tools, and allows it to be easily learned and used by a wide range of developers.
+
+To create a basic HTML web page, you will need to start with a text editor, such as Notepad or Sublime Text. You can then use the standard HTML tags to create the structure of your page, such as the headings, paragraphs, images, and links.
+
+It's important to note that HTML is not a programming language and it cannot be used to create dynamic functionality, such as form validation or data processing. For this, you will need to use a programming language such as JavaScript or PHP.
+
+In conclusion, HTML is a fundamental building block of the web. It is a markup language used to structure web pages, and is essential for creating visually appealing, interactive and accessible websites. Whether you're a beginner or a professional developer, learning HTML will be a valuable asset in your web development skillset.
+<iframe width="798" height="449" src="https://www.youtube.com/embed/BsDoLVMnmZs" title="HTML Tutorial For Beginners In Hindi (With Notes) 🔥" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

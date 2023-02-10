@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1969/1969509.png" type="image/x-icon">
+    <link rel="stylesheet" href="about.css">
+
+
+</head>
+
+<body>
+    <marquee direction="left">The new batch is starting on 14 Feb 2023. <a href="./join.html"><button>Join Now</button></a>
+    </marquee>
+    <nav>
+        <div class="sect-1">
+            <img src="https://code-clubs.netlify.app/static/media/logo.2e04003de7d7da25582e.png" alt="">
+            <ul>
+                <a href="index.html">
+                    <li class="active">Home</li>
+                </a>
+                <a href="blog.html">
+                    <li>Blogs</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div class="sect-2">
+            <a href="join.html"><button>Join Us</button></a>
+
+        </div>
+    </nav>
+    <div class="div-cont-blog">
+        <h1 style="text-align: center;">
+            Blogs
+            <p style=" font-size: 1.5rem;
+            padding: 0 5rem;">A blog is a website or section of a website where an individual or organization writes
+                about topics of interest. Blogs typically consist of text, images, and links to other websites, and are
+                updated regularly with new content. They can be used for personal or professional purposes, and can
+                cover a wide range of topics such as news, politics, technology, culture, and more.</p>
+        </h1>
+        <div class="boxes">
+            <div class="box">
+                <h2>CSS Blog and videos</h2>
+                <p>CSS (Cascading Style Sheets) is a styling language that is used to add visual elements to web pages,
+                    such
+                    as colors, fonts, and layouts. It is used in conjunction with HTML and JavaScript to create visually
+                    appealing and responsive websites.
+                </p>
+                <a href="./css-blog.html"><button style="margin: 0;">Read More</button></a>
+            </div>
+            <div class="box">
+                <h2>Python Blog and videos</h2>
+                <p>
+                    Python is a powerful and versatile programming language that is widely used in many different
+                    fields,
+                    from web development to data science to artificial intelligence. It is known for its simple,
+                    easy-to-read syntax and its vast array of libraries and frameworks that make it a great choice for
+                    both
+                    beginners and experienced programmers.
+                </p>
+                <a href="./python-blog.html"><button style="margin: 0;">Read More</button></a>
+            </div>
+            <div class="box">
+                <h2>HTML Blog and videos</h2>
+                <p>HTML, or Hypertext Markup Language, is the standard language used to create web pages. It is a markup
+                    language, which means it is used to add structure and meaning to text, and is used in conjunction
+                    with
+                    other languages such as CSS and JavaScript to create visually appealing and interactive websites.
+                </p>
+                <a href="./html-blog.html"><button style="margin: 0;">Read More</button></a>
+            </div>
+            <div class="box">
+                <h2>JavaScript Blog and videos</h2>
+                <p>JavaScript is a programming language that is widely used to create interactive and dynamic features
+                    on
+                    websites and web applications. It is a client-side language, which means that the code is executed
+                    by
+                    the web browser on the user's computer, rather than on a server.
+                </p>
+                <a href="js-blog.html"><button style="margin: 0;">Read More</button></a>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).on('click', 'ul li', function(){
+            $(this).addClass('active').siblings().removeClass('active')
+        })
+    </script>
+    <footer>&copy CodeClub-2023</footer>
+</body>
+
+</html>

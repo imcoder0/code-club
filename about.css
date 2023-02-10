@@ -1,0 +1,34 @@
+.div-cont-blog h1{
+    background-image: url(./glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    background-blend-mode: overlay;
+    padding-bottom: 40vh;
+    color: white;
+    padding-top: 40vh;
+    align-items: center;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.box{
+    padding: 2rem ;
+    margin-bottom: 1rem;
+    border: 2px solid rgb(114, 114, 114);
+    
+}
+.boxes{
+    margin: 2rem;
+}
+.box p{
+    font-weight: 600;
+    color: rgb(90, 97, 104);
+}
+@media(max-width:768px){
+    .box{
+        text-align: center;
+    }
+    .div-cont-blog p{
+        padding:0 1rem !important;
+    }
+}

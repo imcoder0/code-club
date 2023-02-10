@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1969/1969509.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    <style>
+        .cont-css h1{
+            background-image: url(https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80);
+
+            background-repeat: no-repeat;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            background-blend-mode: overlay;
+            padding-bottom: 30vh;
+            color: white;
+            padding-top: 30vh;
+            align-items: center;
+            font-size: 4rem;
+            margin: 0;
+            text-align: center;
+            margin-bottom: 10vh;
+            
+        }
+
+        .cont-css p {
+            font-size: 1.2rem;
+            margin: 3rem;
+            font-family: 'Rowdies', cursive;
+            ;
+        }
+        .vid-sect{
+            background-color: rgb(211, 255, 203);
+            padding: 3rem;
+        }
+        .vid-sect iframe{
+            
+            border: 1px solid rgb(159, 248, 233);
+            border-radius: 20px;
+        }
+        h2{
+            font-size: 2rem;
+        }
+        details {
+            font-size: 1.5rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <marquee direction="left">The new batch is starting on 14 Feb 2023. <a href="./join.html"><button>Join Now</button></a>
+    </marquee>
+    <nav>
+        <div class="sect-1">
+            <img src="https://code-clubs.netlify.app/static/media/logo.2e04003de7d7da25582e.png" alt="">
+            <ul>
+                <a href="index.html">
+                    <li class="active">Home</li>
+                </a>
+                <a href="blog.html">
+                    <li>Blogs</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div class="sect-2">
+            <a href="join.html"><button>Join Us</button></a>
+
+        </div>
+    </nav>
+    <div class="cont-css">
+        <h1>CSS Blog And Video</h1>
+        <p>
+            CSS (Cascading Style Sheets) is a styling language that is used to add visual elements to web pages, such as
+            colors, fonts, and layouts. It is used in conjunction with HTML and JavaScript to create visually appealing
+            and responsive websites.
+            <br><br>
+            One of the main benefits of CSS is that it allows you to separate the presentation of a website from its
+            structure and content. This means that you can change the visual elements of a website without having to
+            make changes to the HTML or JavaScript code. This makes it easier to maintain and update a website, and it
+            also allows for more efficient use of code.
+            <br><br>
+            CSS also allows for the use of media queries, which enable you to change the styles of a website based on
+            the device or screen size it is being viewed on. This allows for responsive design, where the website
+            automatically adapts to the size of the user's screen. This is especially important in today's world where
+            majority of users access websites on mobile devices.
+            <br><br>
+            Another feature of CSS is the ability to use CSS preprocessors like SASS and LESS. These preprocessors
+            extend the capabilities of CSS by allowing you to use variables, functions, and other programming constructs
+            within your stylesheets. This makes it easier to write and maintain complex stylesheets, and it also allows
+            you to write more efficient and reusable code.
+            <br><br>
+            CSS also has a number of powerful layout tools, such as Flexbox and Grid, which allow you to create complex
+            and responsive layouts with ease. These tools make it easy to create grid-based layouts, align elements, and
+            control the size and position of elements on a web page.
+            <br><br>
+            In summary, CSS is an essential part of web development and is used to add visual elements to web pages. It
+            allows for the separation of presentation and structure, making it easier to maintain and update websites.
+            CSS also includes powerful layout tools and allows for responsive design, making it a must-have skill for
+            any web developer.
+        </p>
+        <div class="vid">
+            <h1 style="background-image: url(https://images.unsplash.com/photo-1540655037529-dec987208707?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1521&q=80); margin: 0;">Tutorials on CSS</h1>
+            <div class="vid-sect">
+                <center>
+                <div class="card-1">
+                    <iframe width="1200" height="700" src="https://www.youtube.com/embed/Edsxf_NBFrw" title="CSS Tutorial In Hindi (With Notes) 🔥" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h2 >CSS Tutorial By Code With Harry</h2>
+                    <details>
+                        <summary>Description</summary>
+                        <p>CSS Tutorial For Beginners in Hindi: In this CSS3 tutorial in Hindi we will learn everything you need to learn about CSS from scratch. We will first discuss why we need CSS and what CSS is after which we will gradually build pace and learn several intermediate to advanced level concepts.</p>
+                    </details>
+                </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).on('click', 'ul li', function(){
+            $(this).addClass('active').siblings().removeClass('active')
+        })
+    </script>
+    <footer>&copy; CodeClub-2023</footer>
+</body>
+
+</html>
